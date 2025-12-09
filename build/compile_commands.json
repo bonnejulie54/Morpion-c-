@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/Users/juliebonne/Desktop/ECOLE/IMAC/semestre_1/prog algo/Morpion/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/morpion.dir/src/player.cpp.o -c \"/Users/juliebonne/Desktop/ECOLE/IMAC/semestre_1/prog algo/Morpion/src/player.cpp\"",
+  "file": "/Users/juliebonne/Desktop/ECOLE/IMAC/semestre_1/prog algo/Morpion/src/player.cpp",
+  "output": "CMakeFiles/morpion.dir/src/player.cpp.o"
+},
+{
+  "directory": "/Users/juliebonne/Desktop/ECOLE/IMAC/semestre_1/prog algo/Morpion/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/morpion.dir/src/main.cpp.o -c \"/Users/juliebonne/Desktop/ECOLE/IMAC/semestre_1/prog algo/Morpion/src/main.cpp\"",
+  "file": "/Users/juliebonne/Desktop/ECOLE/IMAC/semestre_1/prog algo/Morpion/src/main.cpp",
+  "output": "CMakeFiles/morpion.dir/src/main.cpp.o"
+}
+]
