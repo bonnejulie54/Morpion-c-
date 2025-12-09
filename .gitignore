@@ -1,0 +1,21 @@
+# --- Fichiers compilés ---
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+
+# --- Dossiers de build / compilation ---
+build/
+bin/
+out/
+dist/
+
+# --- VSCode ---
+.vscode/
+
+# --- macOS ---
+.DS_Store
+
