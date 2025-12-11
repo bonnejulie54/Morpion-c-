@@ -1,9 +1,9 @@
 #pragma once 
 
-struct player
+struct Player
 {
      std::string name {};
      std::string symbol {};
 
-     void create_player ();
+     Player create_player();
 };
