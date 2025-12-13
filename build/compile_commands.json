@@ -1,14 +1,32 @@
 [
 {
   "directory": "/Users/juliebonne/Desktop/ECOLE/IMAC/semestre_1/prog algo/Morpion/build",
-  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/morpion.dir/src/player.cpp.o -c \"/Users/juliebonne/Desktop/ECOLE/IMAC/semestre_1/prog algo/Morpion/src/player.cpp\"",
-  "file": "/Users/juliebonne/Desktop/ECOLE/IMAC/semestre_1/prog algo/Morpion/src/player.cpp",
-  "output": "CMakeFiles/morpion.dir/src/player.cpp.o"
+  "command": "/usr/bin/clang++  -I\"/Users/juliebonne/Desktop/ECOLE/IMAC/semestre_1/prog algo/Morpion/include\" -g -std=gnu++20 -arch arm64 -Werror -Wall -Wextra -Wpedantic -pedantic-errors -Wimplicit-fallthrough -o CMakeFiles/TicTacToe.dir/src/GameBoard.cpp.o -c \"/Users/juliebonne/Desktop/ECOLE/IMAC/semestre_1/prog algo/Morpion/src/GameBoard.cpp\"",
+  "file": "/Users/juliebonne/Desktop/ECOLE/IMAC/semestre_1/prog algo/Morpion/src/GameBoard.cpp",
+  "output": "CMakeFiles/TicTacToe.dir/src/GameBoard.cpp.o"
 },
 {
   "directory": "/Users/juliebonne/Desktop/ECOLE/IMAC/semestre_1/prog algo/Morpion/build",
-  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/morpion.dir/src/main.cpp.o -c \"/Users/juliebonne/Desktop/ECOLE/IMAC/semestre_1/prog algo/Morpion/src/main.cpp\"",
+  "command": "/usr/bin/clang++  -I\"/Users/juliebonne/Desktop/ECOLE/IMAC/semestre_1/prog algo/Morpion/include\" -g -std=gnu++20 -arch arm64 -Werror -Wall -Wextra -Wpedantic -pedantic-errors -Wimplicit-fallthrough -o CMakeFiles/TicTacToe.dir/src/Menu.cpp.o -c \"/Users/juliebonne/Desktop/ECOLE/IMAC/semestre_1/prog algo/Morpion/src/Menu.cpp\"",
+  "file": "/Users/juliebonne/Desktop/ECOLE/IMAC/semestre_1/prog algo/Morpion/src/Menu.cpp",
+  "output": "CMakeFiles/TicTacToe.dir/src/Menu.cpp.o"
+},
+{
+  "directory": "/Users/juliebonne/Desktop/ECOLE/IMAC/semestre_1/prog algo/Morpion/build",
+  "command": "/usr/bin/clang++  -I\"/Users/juliebonne/Desktop/ECOLE/IMAC/semestre_1/prog algo/Morpion/include\" -g -std=gnu++20 -arch arm64 -Werror -Wall -Wextra -Wpedantic -pedantic-errors -Wimplicit-fallthrough -o CMakeFiles/TicTacToe.dir/src/Victoire.cpp.o -c \"/Users/juliebonne/Desktop/ECOLE/IMAC/semestre_1/prog algo/Morpion/src/Victoire.cpp\"",
+  "file": "/Users/juliebonne/Desktop/ECOLE/IMAC/semestre_1/prog algo/Morpion/src/Victoire.cpp",
+  "output": "CMakeFiles/TicTacToe.dir/src/Victoire.cpp.o"
+},
+{
+  "directory": "/Users/juliebonne/Desktop/ECOLE/IMAC/semestre_1/prog algo/Morpion/build",
+  "command": "/usr/bin/clang++  -I\"/Users/juliebonne/Desktop/ECOLE/IMAC/semestre_1/prog algo/Morpion/include\" -g -std=gnu++20 -arch arm64 -Werror -Wall -Wextra -Wpedantic -pedantic-errors -Wimplicit-fallthrough -o CMakeFiles/TicTacToe.dir/src/main.cpp.o -c \"/Users/juliebonne/Desktop/ECOLE/IMAC/semestre_1/prog algo/Morpion/src/main.cpp\"",
   "file": "/Users/juliebonne/Desktop/ECOLE/IMAC/semestre_1/prog algo/Morpion/src/main.cpp",
-  "output": "CMakeFiles/morpion.dir/src/main.cpp.o"
+  "output": "CMakeFiles/TicTacToe.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/juliebonne/Desktop/ECOLE/IMAC/semestre_1/prog algo/Morpion/build",
+  "command": "/usr/bin/clang++  -I\"/Users/juliebonne/Desktop/ECOLE/IMAC/semestre_1/prog algo/Morpion/include\" -g -std=gnu++20 -arch arm64 -Werror -Wall -Wextra -Wpedantic -pedantic-errors -Wimplicit-fallthrough -o CMakeFiles/TicTacToe.dir/src/player.cpp.o -c \"/Users/juliebonne/Desktop/ECOLE/IMAC/semestre_1/prog algo/Morpion/src/player.cpp\"",
+  "file": "/Users/juliebonne/Desktop/ECOLE/IMAC/semestre_1/prog algo/Morpion/src/player.cpp",
+  "output": "CMakeFiles/TicTacToe.dir/src/player.cpp.o"
 }
 ]

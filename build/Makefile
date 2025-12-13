@@ -113,28 +113,101 @@ preinstall/fast:
 
 # clear depends
 depend:
+	$(CMAKE_COMMAND) -P "/Users/juliebonne/Desktop/ECOLE/IMAC/semestre_1/prog algo/Morpion/build/CMakeFiles/VerifyGlobs.cmake"
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named morpion
+# Target rules for targets named TicTacToe
 
 # Build rule for target.
-morpion: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 morpion
-.PHONY : morpion
+TicTacToe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TicTacToe
+.PHONY : TicTacToe
 
 # fast build rule for target.
-morpion/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/morpion.dir/build.make CMakeFiles/morpion.dir/build
-.PHONY : morpion/fast
+TicTacToe/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicTacToe.dir/build.make CMakeFiles/TicTacToe.dir/build
+.PHONY : TicTacToe/fast
+
+src/GameBoard.o: src/GameBoard.cpp.o
+.PHONY : src/GameBoard.o
+
+# target to build an object file
+src/GameBoard.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicTacToe.dir/build.make CMakeFiles/TicTacToe.dir/src/GameBoard.cpp.o
+.PHONY : src/GameBoard.cpp.o
+
+src/GameBoard.i: src/GameBoard.cpp.i
+.PHONY : src/GameBoard.i
+
+# target to preprocess a source file
+src/GameBoard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicTacToe.dir/build.make CMakeFiles/TicTacToe.dir/src/GameBoard.cpp.i
+.PHONY : src/GameBoard.cpp.i
+
+src/GameBoard.s: src/GameBoard.cpp.s
+.PHONY : src/GameBoard.s
+
+# target to generate assembly for a file
+src/GameBoard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicTacToe.dir/build.make CMakeFiles/TicTacToe.dir/src/GameBoard.cpp.s
+.PHONY : src/GameBoard.cpp.s
+
+src/Menu.o: src/Menu.cpp.o
+.PHONY : src/Menu.o
+
+# target to build an object file
+src/Menu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicTacToe.dir/build.make CMakeFiles/TicTacToe.dir/src/Menu.cpp.o
+.PHONY : src/Menu.cpp.o
+
+src/Menu.i: src/Menu.cpp.i
+.PHONY : src/Menu.i
+
+# target to preprocess a source file
+src/Menu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicTacToe.dir/build.make CMakeFiles/TicTacToe.dir/src/Menu.cpp.i
+.PHONY : src/Menu.cpp.i
+
+src/Menu.s: src/Menu.cpp.s
+.PHONY : src/Menu.s
+
+# target to generate assembly for a file
+src/Menu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicTacToe.dir/build.make CMakeFiles/TicTacToe.dir/src/Menu.cpp.s
+.PHONY : src/Menu.cpp.s
+
+src/Victoire.o: src/Victoire.cpp.o
+.PHONY : src/Victoire.o
+
+# target to build an object file
+src/Victoire.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicTacToe.dir/build.make CMakeFiles/TicTacToe.dir/src/Victoire.cpp.o
+.PHONY : src/Victoire.cpp.o
+
+src/Victoire.i: src/Victoire.cpp.i
+.PHONY : src/Victoire.i
+
+# target to preprocess a source file
+src/Victoire.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicTacToe.dir/build.make CMakeFiles/TicTacToe.dir/src/Victoire.cpp.i
+.PHONY : src/Victoire.cpp.i
+
+src/Victoire.s: src/Victoire.cpp.s
+.PHONY : src/Victoire.s
+
+# target to generate assembly for a file
+src/Victoire.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicTacToe.dir/build.make CMakeFiles/TicTacToe.dir/src/Victoire.cpp.s
+.PHONY : src/Victoire.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/morpion.dir/build.make CMakeFiles/morpion.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicTacToe.dir/build.make CMakeFiles/TicTacToe.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -142,7 +215,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/morpion.dir/build.make CMakeFiles/morpion.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicTacToe.dir/build.make CMakeFiles/TicTacToe.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -150,7 +223,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/morpion.dir/build.make CMakeFiles/morpion.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicTacToe.dir/build.make CMakeFiles/TicTacToe.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/player.o: src/player.cpp.o
@@ -158,7 +231,7 @@ src/player.o: src/player.cpp.o
 
 # target to build an object file
 src/player.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/morpion.dir/build.make CMakeFiles/morpion.dir/src/player.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicTacToe.dir/build.make CMakeFiles/TicTacToe.dir/src/player.cpp.o
 .PHONY : src/player.cpp.o
 
 src/player.i: src/player.cpp.i
@@ -166,7 +239,7 @@ src/player.i: src/player.cpp.i
 
 # target to preprocess a source file
 src/player.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/morpion.dir/build.make CMakeFiles/morpion.dir/src/player.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicTacToe.dir/build.make CMakeFiles/TicTacToe.dir/src/player.cpp.i
 .PHONY : src/player.cpp.i
 
 src/player.s: src/player.cpp.s
@@ -174,7 +247,7 @@ src/player.s: src/player.cpp.s
 
 # target to generate assembly for a file
 src/player.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/morpion.dir/build.make CMakeFiles/morpion.dir/src/player.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TicTacToe.dir/build.make CMakeFiles/TicTacToe.dir/src/player.cpp.s
 .PHONY : src/player.cpp.s
 
 # Help Target
@@ -185,7 +258,16 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... morpion"
+	@echo "... TicTacToe"
+	@echo "... src/GameBoard.o"
+	@echo "... src/GameBoard.i"
+	@echo "... src/GameBoard.s"
+	@echo "... src/Menu.o"
+	@echo "... src/Menu.i"
+	@echo "... src/Menu.s"
+	@echo "... src/Victoire.o"
+	@echo "... src/Victoire.i"
+	@echo "... src/Victoire.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
@@ -203,6 +285,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+	$(CMAKE_COMMAND) -P "/Users/juliebonne/Desktop/ECOLE/IMAC/semestre_1/prog algo/Morpion/build/CMakeFiles/VerifyGlobs.cmake"
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

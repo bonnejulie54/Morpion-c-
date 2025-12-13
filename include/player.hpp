@@ -5,5 +5,5 @@ struct Player
      std::string name {};
      std::string symbol {};
 
-     Player create_player();
 };
+ Player create_player();

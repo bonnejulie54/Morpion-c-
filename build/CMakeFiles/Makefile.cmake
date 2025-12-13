@@ -11,6 +11,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.1.1/CMakeCCompiler.cmake"
   "CMakeFiles/4.1.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.1.1/CMakeSystem.cmake"
+  "CMakeFiles/VerifyGlobs.cmake"
+  "CMakeFiles/cmake.verify_globs"
   "/opt/homebrew/share/cmake/Modules/CMakeCInformation.cmake"
   "/opt/homebrew/share/cmake/Modules/CMakeCXXInformation.cmake"
   "/opt/homebrew/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
@@ -56,5 +58,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/morpion.dir/DependInfo.cmake"
+  "CMakeFiles/TicTacToe.dir/DependInfo.cmake"
   )
