@@ -79,7 +79,7 @@ int main() {
         turn++;
     }
 
-    // Match nul
+   
     if(!gameOver) {
         draw_game_board(board);
         std::cout << "Match nul !\n";
