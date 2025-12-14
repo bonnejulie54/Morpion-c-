@@ -1,9 +1,10 @@
 #pragma once 
+#include <string>
 
 struct Player
 {
      std::string name {};
-     std::string symbol {};
+     char symbol {};
 
 };
  Player create_player();
