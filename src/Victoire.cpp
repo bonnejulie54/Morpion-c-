@@ -1,7 +1,5 @@
 #include "Victoire.hpp"
 
-#include "Victoire.hpp"
-
 bool check_win(const std::array<char, 9>& board, char s) {
     if(board[0]==s && board[1]==s && board[2]==s) return true;
     if(board[3]==s && board[4]==s && board[5]==s) return true;
@@ -19,8 +17,34 @@ bool check_win(const std::array<char, 9>& board, char s) {
 
 
 void play_ai(std::array<char, 9>& board, char symbol) {
-    int index;
+    char opponent = (symbol == 'X') ? 'O' : 'X';
 
+    int combosGagnant[8][3] = {
+        {0,1,2}, {3,4,5}, {6,7,8}, 
+        {0,3,6}, {1,4,7}, {2,5,8},
+        {0,4,8}, {2,4,6}           
+    };
+
+    for(int i = 0; i < 8; i++) {
+        int a = combosGagnant[i][0];
+        int b = combosGagnant[i][1];
+        int c = combosGagnant[i][2];
+
+        if(board[a] == opponent && board[b] == opponent && board[c] != 'X' && board[c] != 'O') {
+            board[c] = symbol;
+            return;
+        }
+        if(board[a] == opponent && board[c] == opponent && board[b] != 'X' && board[b] != 'O') {
+            board[b] = symbol;
+            return;
+        }
+        if(board[b] == opponent && board[c] == opponent && board[a] != 'X' && board[a] != 'O') {
+            board[a] = symbol;
+            return;
+        }
+    }
+
+    int index;
     do {
         index = rand() % 9;
     } while(board[index] == 'X' || board[index] == 'O');

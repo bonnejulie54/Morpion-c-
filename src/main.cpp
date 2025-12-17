@@ -69,7 +69,7 @@ int main() {
             board[move - 1] = currentPlayer->symbol;
         }
 
-        // Vérification de la victoire
+        
         if(check_win(board, currentPlayer->symbol)) {
             draw_game_board(board);
             std::cout << currentPlayer->name << " a gagné !\n";
@@ -79,7 +79,6 @@ int main() {
         turn++;
     }
 
-   
     if(!gameOver) {
         draw_game_board(board);
         std::cout << "Match nul !\n";
