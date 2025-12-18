@@ -42,6 +42,11 @@ Le fichier main.cpp fait  le déroulement du jeu :
 6.	Vérification de la victoire ou du match nul
 Le main ne contient pas de logique complexe mais appelle les fonctions définies dans les autres fichiers.
 
+L'amélioration que j'ai choisi concerne l'ia, elle est plus "intelligente".Elle ne joue pas seulement des coups au hasard, lorsque deux symbols de l'adversaire sont alignés, elle place son symbol au bout pour empecher la victoire. Dans le code, j’utilise un tableau combosGagnant qui contient toutes les combinaisons gagnantes possibles du plateau (lignes, colonnes et diagonales).
+Pour chaque combinaison, le programme récupère les indices des trois cases à vérifier (a, b et c).
+Ensuite, grâce à des conditions if, l’IA regarde si deux cases de la combinaison sont occupées par l’adversaire et si la troisième est libre.
+Si c’est le cas, l’IA place son symbole dans la case libre pour bloquer l’adversaire et termine son tour.
+
 Problèmes rencontré : 
 1)	Certaines erreurs venaient des warnings transformés en erreurs avec l’option -Werror. Par exemple, certaines variables étaient déclarées mais jamais utilisées, ou il y avait des comparaisons entre des types int et size_t.
 J’ai commencé par utiliser size_t pour toutes les boucles, ce qui est plus adapté aux indices et tailles de conteneurs. Ensuite, j’ai soit supprimé les variables inutilisées, soit trouvé un moyen de les utiliser, pour que le code compile proprement.
