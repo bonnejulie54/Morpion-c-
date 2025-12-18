@@ -17,7 +17,7 @@ bool check_win(const std::array<char, 9>& board, char s) {
 
 
 void play_ai(std::array<char, 9>& board, char symbol) {
-    char opponent = (symbol == 'X') ? 'O' : 'X';
+    char adversaire = (symbol == 'X') ? 'O' : 'X';
 
     int combosGagnant[8][3] = {
         {0,1,2}, {3,4,5}, {6,7,8}, 
@@ -30,15 +30,15 @@ void play_ai(std::array<char, 9>& board, char symbol) {
         int b = combosGagnant[i][1];
         int c = combosGagnant[i][2];
 
-        if(board[a] == opponent && board[b] == opponent && board[c] != 'X' && board[c] != 'O') {
+        if(board[a] == adversaire && board[b] == adversaire && board[c] != 'X' && board[c] != 'O') {
             board[c] = symbol;
             return;
         }
-        if(board[a] == opponent && board[c] == opponent && board[b] != 'X' && board[b] != 'O') {
+        if(board[a] == adversaire && board[c] == adversaire && board[b] != 'X' && board[b] != 'O') {
             board[b] = symbol;
             return;
         }
-        if(board[b] == opponent && board[c] == opponent && board[a] != 'X' && board[a] != 'O') {
+        if(board[b] == adversaire && board[c] == adversaire && board[a] != 'X' && board[a] != 'O') {
             board[a] = symbol;
             return;
         }
